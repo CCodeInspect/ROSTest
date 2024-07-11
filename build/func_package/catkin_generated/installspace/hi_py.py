@@ -2,6 +2,6 @@
 import rospy
 
 if __name__=='__main__':
-    rospy.INFO("py start~~")
-    rospy.init_node("set node ~!!!")
-    rospy.INFO("py end ~~")
+    rospy.init_node("firstnode")
+    rospy.loginfo("py start~~")
+    rospy.loginfo("py end ~~")

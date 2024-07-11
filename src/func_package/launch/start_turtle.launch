@@ -1,0 +1,8 @@
+<launch>
+    <!--node-->
+    <!--turtule gui-->
+    <node pkg="turtlesim" type="turtlesim_node" name="node_turtle"/>
+    <node pkg="turtlesim" type="turtle_teleop_key" name="node_key"/>
+    <node pkg="func_package" type="hello_cpp" name="node_cpp" output="screen"/>
+    <node pkg="func_package" type="hi_py" name="node_py" output="screen"/>
+</launch>
