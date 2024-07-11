@@ -18,7 +18,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/vboxuser/demo_2/src/CMakeLists.txt"
   "/home/vboxuser/demo_2/src/func_package/CMakeLists.txt"
   "/home/vboxuser/demo_2/src/func_package/package.xml"
-  "/home/vboxuser/demo_2/src/func_package/scripts/hi_py.py"
+  "/home/vboxuser/demo_2/src/func_package/scripts/pub.py"
   "/opt/ros/noetic/share/catkin/cmake/all.cmake"
   "/opt/ros/noetic/share/catkin/cmake/assert.cmake"
   "/opt/ros/noetic/share/catkin/cmake/atomic_configure_file.cmake"
