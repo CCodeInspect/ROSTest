@@ -1,0 +1,8 @@
+prefix=/home/vboxuser/demo_2/install
+
+Name: func_package
+Description: Description of func_package
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

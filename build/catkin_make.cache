@@ -1,0 +1,2 @@
+func_package
+-DCATKIN_DEVEL_PREFIX=/home/vboxuser/demo_2/devel -DCMAKE_INSTALL_PREFIX=/home/vboxuser/demo_2/install -G Unix Makefiles

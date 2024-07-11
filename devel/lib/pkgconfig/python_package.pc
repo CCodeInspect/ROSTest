@@ -1,0 +1,8 @@
+prefix=/home/vboxuser/demo_2/devel
+
+Name: python_package
+Description: Description of python_package
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
