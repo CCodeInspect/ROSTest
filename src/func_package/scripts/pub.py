@@ -17,10 +17,19 @@ if __name__=='__main__':
     pub= rospy.Publisher(name="fang",data_class=String,queue_size=10)#create pub obj
     #data
     msg=String()
+    #pub rate
+    rate = rospy.Rate(1)
+
+    #count
+    count= 0
 
     #pub data
+    rospy.sleep(5) #sleep for sub all msg and not to lose msg 1-3
     while not rospy.is_shutdown():
-        msg.data="hello"
+        count+=1
+        msg.data="hello"+str(count) #add number
         pub.publish(msg)
+        rospy.loginfo("pub data: %s",msg.data)
+        rate.sleep()
 
 

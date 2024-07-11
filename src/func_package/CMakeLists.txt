@@ -161,6 +161,7 @@ target_link_libraries(hello_cpp
 ## in contrast to setup.py, you can choose the destination
 catkin_install_python(PROGRAMS
   scripts/pub.py
+  scripts/sub.py
   DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 )
 
