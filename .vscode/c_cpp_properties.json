@@ -8,7 +8,8 @@
       "includePath": [
         "/opt/ros/noetic/include/**",
         "/usr/include/**",
-        "/home/vboxuser/demo_2/src/func_package/include/**" 
+        "/home/vboxuser/demo_2/src/func_package/include/**" ,
+        "/home/vboxuser/demo_2/devel/include/**"
       ],
       "name": "ROS",
       "intelliSenseMode": "gcc-x64",

@@ -1,8 +1,8 @@
 
 "use strict";
 
-let add_int = require('./add_int.js')
+let AddInts = require('./AddInts.js')
 
 module.exports = {
-  add_int: add_int,
+  AddInts: AddInts,
 };

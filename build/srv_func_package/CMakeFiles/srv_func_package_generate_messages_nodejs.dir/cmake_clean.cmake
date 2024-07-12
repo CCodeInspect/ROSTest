@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "/home/vboxuser/demo_2/devel/share/gennodejs/ros/srv_func_package/srv/add_int.js"
+  "/home/vboxuser/demo_2/devel/share/gennodejs/ros/srv_func_package/srv/AddInts.js"
   "CMakeFiles/srv_func_package_generate_messages_nodejs"
 )
 

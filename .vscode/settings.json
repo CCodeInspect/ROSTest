@@ -6,5 +6,6 @@
     "python.analysis.extraPaths": [
         "/opt/ros/noetic/lib/python3/dist-packages",
         "/home/vboxuser/demo_2/devel/lib/python3/dist-packages"
-    ]
+    ],
+    "cmake.sourceDirectory": "/home/vboxuser/demo_2/src/func_package"
 }

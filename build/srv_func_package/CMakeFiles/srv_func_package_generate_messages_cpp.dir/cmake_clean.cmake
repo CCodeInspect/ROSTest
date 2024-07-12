@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "/home/vboxuser/demo_2/devel/include/srv_func_package/add_int.h"
+  "/home/vboxuser/demo_2/devel/include/srv_func_package/AddInts.h"
   "CMakeFiles/srv_func_package_generate_messages_cpp"
 )
 

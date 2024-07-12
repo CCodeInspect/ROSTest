@@ -38,7 +38,7 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/srv_func_package/srv" TYPE FILE FILES "/home/vboxuser/demo_2/src/srv_func_package/srv/add_int.srv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/srv_func_package/srv" TYPE FILE FILES "/home/vboxuser/demo_2/src/srv_func_package/srv/AddInts.srv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -86,5 +86,13 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/srv_func_package" TYPE FILE FILES "/home/vboxuser/demo_2/src/srv_func_package/package.xml")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/srv_func_package" TYPE PROGRAM FILES "/home/vboxuser/demo_2/build/srv_func_package/catkin_generated/installspace/server.py")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/srv_func_package" TYPE PROGRAM FILES "/home/vboxuser/demo_2/build/srv_func_package/catkin_generated/installspace/client.py")
 endif()
 

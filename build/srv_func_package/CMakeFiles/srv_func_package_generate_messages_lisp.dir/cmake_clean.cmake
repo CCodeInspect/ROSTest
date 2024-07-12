@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "/home/vboxuser/demo_2/devel/share/common-lisp/ros/srv_func_package/srv/add_int.lisp"
+  "/home/vboxuser/demo_2/devel/share/common-lisp/ros/srv_func_package/srv/AddInts.lisp"
   "CMakeFiles/srv_func_package_generate_messages_lisp"
 )
 

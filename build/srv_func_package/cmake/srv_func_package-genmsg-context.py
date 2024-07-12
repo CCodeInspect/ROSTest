@@ -1,7 +1,7 @@
 # generated from genmsg/cmake/pkg-genmsg.context.in
 
 messages_str = ""
-services_str = "/home/vboxuser/demo_2/src/srv_func_package/srv/add_int.srv"
+services_str = "/home/vboxuser/demo_2/src/srv_func_package/srv/AddInts.srv"
 pkg_name = "srv_func_package"
 dependencies_str = "std_msgs"
 langs = "gencpp;geneus;genlisp;gennodejs;genpy"
