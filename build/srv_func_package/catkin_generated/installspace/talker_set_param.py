@@ -15,4 +15,5 @@ if __name__ =='__main__':
     rospy.set_param(param_name="radius_key",param_value=0.15)
     
     #update
-    rospy.set_param(param_name="key",param_value="update")
+    res = rospy.set_param(param_name="key",param_value="update")
+    rospy.loginfo("set successfully : %s ",res)
