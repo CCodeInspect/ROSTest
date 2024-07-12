@@ -4,6 +4,7 @@
         "/home/vboxuser/demo_2/devel/lib/python3/dist-packages"
     ],
     "python.analysis.extraPaths": [
-        "/opt/ros/noetic/lib/python3/dist-packages"
+        "/opt/ros/noetic/lib/python3/dist-packages",
+        "/home/vboxuser/demo_2/devel/lib/python3/dist-packages"
     ]
 }

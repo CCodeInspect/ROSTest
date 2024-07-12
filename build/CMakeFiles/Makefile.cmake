@@ -23,6 +23,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/vboxuser/demo_2/src/func_package/CMakeLists.txt"
   "/home/vboxuser/demo_2/src/func_package/package.xml"
   "/home/vboxuser/demo_2/src/func_package/scripts/pub.py"
+  "/home/vboxuser/demo_2/src/func_package/scripts/pub_selfdefine_data.py"
   "/home/vboxuser/demo_2/src/func_package/scripts/sub.py"
   "/opt/ros/noetic/share/catkin/cmake/all.cmake"
   "/opt/ros/noetic/share/catkin/cmake/assert.cmake"
