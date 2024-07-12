@@ -36,6 +36,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/vboxuser/demo_2/src/srv_func_package/package.xml"
   "/home/vboxuser/demo_2/src/srv_func_package/scripts/client.py"
   "/home/vboxuser/demo_2/src/srv_func_package/scripts/server.py"
+  "/home/vboxuser/demo_2/src/srv_func_package/scripts/talker_set_param.py"
   "/opt/ros/noetic/share/catkin/cmake/all.cmake"
   "/opt/ros/noetic/share/catkin/cmake/assert.cmake"
   "/opt/ros/noetic/share/catkin/cmake/atomic_configure_file.cmake"

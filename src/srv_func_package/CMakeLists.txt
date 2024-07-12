@@ -163,6 +163,7 @@ include_directories(
 catkin_install_python(PROGRAMS
   scripts/server.py
   scripts/client.py
+  scripts/talker_set_param.py
   DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 )
 
