@@ -20,5 +20,5 @@ def do_msg(msg):
 
 if __name__=='__main__':
     rospy.init_node("node_sub_py")
-    sub =rospy.Subscriber(callback=do_msg,name="fang",data_class=String,queue_size=10)
+    sub =rospy.Subscriber()
     rospy.spin() #func call must be used 

@@ -25,6 +25,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/vboxuser/demo_2/src/func_package/scripts/pub.py"
   "/home/vboxuser/demo_2/src/func_package/scripts/pub_selfdefine_data.py"
   "/home/vboxuser/demo_2/src/func_package/scripts/sub.py"
+  "/home/vboxuser/demo_2/src/func_package/scripts/sub_selfdefine_data.py"
   "/opt/ros/noetic/share/catkin/cmake/all.cmake"
   "/opt/ros/noetic/share/catkin/cmake/assert.cmake"
   "/opt/ros/noetic/share/catkin/cmake/atomic_configure_file.cmake"

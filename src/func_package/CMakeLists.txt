@@ -165,6 +165,7 @@ catkin_install_python(PROGRAMS
   scripts/pub.py
   scripts/sub.py
   scripts/pub_selfdefine_data.py
+  scripts/sub_selfdefine_data.py
   DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 )
 
