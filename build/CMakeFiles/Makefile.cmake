@@ -30,6 +30,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/vboxuser/demo_2/src/func_package/package.xml"
   "/home/vboxuser/demo_2/src/func_package/scripts/pub.py"
   "/home/vboxuser/demo_2/src/func_package/scripts/pub_selfdefine_data.py"
+  "/home/vboxuser/demo_2/src/func_package/scripts/pub_turtle.py"
   "/home/vboxuser/demo_2/src/func_package/scripts/sub.py"
   "/home/vboxuser/demo_2/src/func_package/scripts/sub_selfdefine_data.py"
   "/home/vboxuser/demo_2/src/srv_func_package/CMakeLists.txt"
