@@ -13,7 +13,7 @@ from std_msgs.msg import String #pub data type
 
 
 if __name__=='__main__':
-    rospy.init_node("node_pub") #node pub name    
+    rospy.init_node("node_pub_py") #node pub name    
     pub= rospy.Publisher(name="fang",data_class=String,queue_size=10)#create pub obj
     #data
     msg=String()
