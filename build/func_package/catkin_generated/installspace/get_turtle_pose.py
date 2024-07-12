@@ -15,7 +15,7 @@ sub and output turtle pos2
 """
 
 def do_pose(pose:Pose):
-    rospy.loginfo("python sub-> wugui pose: location:(%.2f,%.2f),forward:%.2f,linear:%.2f,angular:%.2f",pose.x,pose.y,pose.theta,pose.linear_velocity,pose.angular_velocity)
+    rospy.loginfo("python sub-> wugui pose: location:(%.2f,%.2f),forward:%.2f,linear:%.2f,angular:%.2f",Pose.x,Pose.y,Pose.theta,Pose.linear_velocity,Pose.angular_velocity)
 
 if __name__=='__main__':
     rospy.init_node("sub_post_p")

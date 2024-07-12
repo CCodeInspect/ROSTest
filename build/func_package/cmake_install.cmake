@@ -108,3 +108,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/func_package" TYPE PROGRAM FILES "/home/vboxuser/demo_2/build/func_package/catkin_generated/installspace/pub_turtle.py")
 endif()
 
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/func_package" TYPE PROGRAM FILES "/home/vboxuser/demo_2/build/func_package/catkin_generated/installspace/get_turtle_pose.py")
+endif()
+

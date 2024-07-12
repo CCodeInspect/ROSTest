@@ -28,6 +28,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/vboxuser/demo_2/src/CMakeLists.txt"
   "/home/vboxuser/demo_2/src/func_package/CMakeLists.txt"
   "/home/vboxuser/demo_2/src/func_package/package.xml"
+  "/home/vboxuser/demo_2/src/func_package/scripts/get_turtle_pose.py"
   "/home/vboxuser/demo_2/src/func_package/scripts/pub.py"
   "/home/vboxuser/demo_2/src/func_package/scripts/pub_selfdefine_data.py"
   "/home/vboxuser/demo_2/src/func_package/scripts/pub_turtle.py"
