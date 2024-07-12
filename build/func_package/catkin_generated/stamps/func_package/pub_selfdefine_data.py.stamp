@@ -15,7 +15,7 @@ define pub ->>self define msg
 
 
 if __name__=='__main__':
-    rospy.init_node("node_selfdefine")
+    rospy.init_node("node_selfdefine_pub")
     pub = rospy.Publisher(name="topic_self_define",data_class=person,queue_size=10)
     self_define_data = person()
     self_define_data.name="self_define_data_name"

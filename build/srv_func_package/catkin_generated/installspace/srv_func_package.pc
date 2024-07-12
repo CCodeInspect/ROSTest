@@ -1,0 +1,8 @@
+prefix=/home/vboxuser/demo_2/install
+
+Name: srv_func_package
+Description: Description of srv_func_package
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: roscpp rospy std_msgs message_runtime
