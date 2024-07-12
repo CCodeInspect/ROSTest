@@ -22,5 +22,7 @@ if __name__=='__main__':
 
     rospy.init_node("node_client")
     client=rospy.ServiceProxy(name="topic",service_class=AddInts)
+    client.wait_for_service() #wait server connect
+    rospy.wait_for_service("topic") #equal to line 25,but need to topic
     response=client.call(int(sys.argv[1]),int(sys.argv[2])) #num1 = sys.argv[1],#num2=sys.argv[2],filename=sys.argv[0]
     rospy.loginfo("response: %d",response.sum)
