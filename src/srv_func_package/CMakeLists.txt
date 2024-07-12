@@ -164,6 +164,8 @@ catkin_install_python(PROGRAMS
   scripts/server.py
   scripts/client.py
   scripts/talker_set_param.py
+  scripts/talker_get_param.py
+  scripts/talker_del_param.py
   DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 )
 

@@ -100,3 +100,11 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/srv_func_package" TYPE PROGRAM FILES "/home/vboxuser/demo_2/build/srv_func_package/catkin_generated/installspace/talker_set_param.py")
 endif()
 
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/srv_func_package" TYPE PROGRAM FILES "/home/vboxuser/demo_2/build/srv_func_package/catkin_generated/installspace/talker_get_param.py")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/srv_func_package" TYPE PROGRAM FILES "/home/vboxuser/demo_2/build/srv_func_package/catkin_generated/installspace/talker_del_param.py")
+endif()
+
