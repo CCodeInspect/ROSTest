@@ -29,8 +29,8 @@ def get_obj_time():
 
 def set_duration_time():
     """程序执行时停顿5秒"""
-    dur = rospy.Duration(5)
     rospy.loginfo("开始休眠")
+    dur = rospy.Duration(5)
     rospy.sleep(dur)
     rospy.loginfo("休眠结束")
 
@@ -44,6 +44,7 @@ def get_func_time():
     dur = rospy.Duration(5)
     t1 = rospy.Time.now()
     du1 = rospy.Duration(5)
+
     t2 = t1 + du1
     rospy.loginfo("开始时刻：%.2f", t1.to_sec())
     rospy.loginfo("结束时刻：%.2f", t2.to_sec())
@@ -56,4 +57,5 @@ if __name__ == "__main__":
     # get_time()
     # set_time()
     # get_obj_time()
-    get_func_time()
+    set_duration_time()
+    # get_func_time()
