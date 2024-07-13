@@ -38,10 +38,10 @@ if __name__=='__main__':
     
     #请求数据
     request = SpawnRequest()
-    request.x=1.0
-    request.y=2.22
+    request.x=2.0
+    request.y=3.1
     request.theta=59.1
-    request.name="turtle_pauline"
+    request.name="turtle_vv"  
 
     client.wait_for_service() #等待服务端
     try:

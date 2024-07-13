@@ -41,7 +41,7 @@ if __name__=='__main__':
     request.x=2.0
     request.y=3.1
     request.theta=59.1
-    request.name="turtle_vv"
+    request.name="turtle_vv"  
 
     client.wait_for_service() #等待服务端
     try:
