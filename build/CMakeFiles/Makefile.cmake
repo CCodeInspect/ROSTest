@@ -30,6 +30,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/vboxuser/demo_2/src/func_package/package.xml"
   "/home/vboxuser/demo_2/src/func_package/scripts/change_color.py"
   "/home/vboxuser/demo_2/src/func_package/scripts/generate_turtle.py"
+  "/home/vboxuser/demo_2/src/func_package/scripts/get_log.py"
   "/home/vboxuser/demo_2/src/func_package/scripts/pub.py"
   "/home/vboxuser/demo_2/src/func_package/scripts/pub_selfdefine_data.py"
   "/home/vboxuser/demo_2/src/func_package/scripts/pub_turtle.py"

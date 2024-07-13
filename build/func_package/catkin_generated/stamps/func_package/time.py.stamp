@@ -1,6 +1,18 @@
 import rospy
 
 
+def doMsg(event):
+    rospy.loginfo("++++++++++++")
+    rospy.loginfo("调用回调函数的时刻：%.2f", event.current_real.to_sec())
+
+
+def create_time_scheduler():
+    """创建定时器"""
+    rospy.init_node("time_scheduler node")
+    timer = rospy.Timer(rospy.Duration(2), doMsg)  # 创建定时器对象
+    rospy.spin()
+
+
 def get_time():
     """获取当前时间"""
     rospy.init_node("node_time")
@@ -53,9 +65,20 @@ def get_func_time():
     rospy.loginfo("持续时间：%.2f", du2.to_sec())
 
 
+def get_dur_time():
+    rospy.init_node("laalnode")
+    time1 = rospy.Time.now()
+    du1 = rospy.Duration(5)
+    t = time1 + du1
+    rospy.loginfo("开始时刻：%.2f", time1.to_sec())
+    rospy.loginfo("结束时刻：%.2f", t.to_sec())
+
+
 if __name__ == "__main__":
     # get_time()
     # set_time()
     # get_obj_time()
-    set_duration_time()
+    # set_duration_time()
     # get_func_time()
+    # get_dur_time()
+    create_time_scheduler()
