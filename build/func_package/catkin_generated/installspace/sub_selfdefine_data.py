@@ -13,3 +13,4 @@ if __name__=='__main__':
     rospy.init_node("node_selfdefine_sub")
     sub = rospy.Subscriber(name="topic_self_define",data_class=person,queue_size=10,callback=do_call)
     rospy.spin() #notic fun call
+    #spin函数指的是进入循环处理回调。

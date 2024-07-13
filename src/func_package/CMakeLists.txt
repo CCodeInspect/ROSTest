@@ -170,6 +170,7 @@ catkin_install_python(PROGRAMS
   scripts/sub_turtle_pose.py
   scripts/generate_turtle.py
   scripts/change_color.py
+  scripts/time.py
   DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 )
 

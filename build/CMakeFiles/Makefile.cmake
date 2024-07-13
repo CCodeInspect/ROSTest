@@ -36,6 +36,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/vboxuser/demo_2/src/func_package/scripts/sub.py"
   "/home/vboxuser/demo_2/src/func_package/scripts/sub_selfdefine_data.py"
   "/home/vboxuser/demo_2/src/func_package/scripts/sub_turtle_pose.py"
+  "/home/vboxuser/demo_2/src/func_package/scripts/time.py"
   "/home/vboxuser/demo_2/src/srv_func_package/CMakeLists.txt"
   "/home/vboxuser/demo_2/src/srv_func_package/package.xml"
   "/home/vboxuser/demo_2/src/srv_func_package/scripts/client.py"
