@@ -33,4 +33,4 @@ if __name__=='__main__':
     while not rospy.is_shutdown():
         pub_turtle.publish(twist)
         rate.sleep()
-        rospy.loginfo("xiao wu gui start~")
+        rospy.loginfo("gui gui start~")

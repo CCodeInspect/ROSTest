@@ -168,6 +168,7 @@ catkin_install_python(PROGRAMS
   scripts/sub_selfdefine_data.py
   scripts/pub_turtle.py
   scripts/sub_turtle_pose.py
+  scripts/generate_turtle.py
   DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 )
 
