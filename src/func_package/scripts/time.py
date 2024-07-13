@@ -3,6 +3,7 @@ import rospy
 
 def doMsg(event):
     rospy.loginfo("++++++++++++")
+    rospy.loginfo("调用回调函数的时刻：%.2f", event.current_real.to_sec())
 
 
 def create_time_scheduler():
