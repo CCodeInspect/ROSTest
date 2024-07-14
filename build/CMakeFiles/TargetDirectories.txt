@@ -35,6 +35,14 @@
 /home/vboxuser/demo_2/build/gtest/googletest/CMakeFiles/test.dir
 /home/vboxuser/demo_2/build/gtest/googletest/CMakeFiles/gtest_main.dir
 /home/vboxuser/demo_2/build/gtest/googletest/CMakeFiles/gtest.dir
+/home/vboxuser/demo_2/build/my/CMakeFiles/install/strip.dir
+/home/vboxuser/demo_2/build/my/CMakeFiles/install/local.dir
+/home/vboxuser/demo_2/build/my/CMakeFiles/install.dir
+/home/vboxuser/demo_2/build/my/CMakeFiles/list_install_components.dir
+/home/vboxuser/demo_2/build/my/CMakeFiles/rebuild_cache.dir
+/home/vboxuser/demo_2/build/my/CMakeFiles/edit_cache.dir
+/home/vboxuser/demo_2/build/my/CMakeFiles/test.dir
+/home/vboxuser/demo_2/build/my/CMakeFiles/_catkin_empty_exported_target.dir
 /home/vboxuser/demo_2/build/func_package/CMakeFiles/install/strip.dir
 /home/vboxuser/demo_2/build/func_package/CMakeFiles/install.dir
 /home/vboxuser/demo_2/build/func_package/CMakeFiles/list_install_components.dir
