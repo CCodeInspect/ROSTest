@@ -1,0 +1,6 @@
+<launch>
+    <!--启动节点  pkg：功能包 ,types:节点类型 ,name:节点名称，output:输出-->
+    <node pkg="turtlesim" type="turtlesim_node" name ="node_name" output="screen" ns="bieming1"/>
+    <!--键盘控制节点-->
+    <node pkg="turtlesim" type="turtle_teleop_key" name ="node_key" output="screen" ns="bieming2"/>
+</launch>
