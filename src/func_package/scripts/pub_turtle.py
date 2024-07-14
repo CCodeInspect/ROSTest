@@ -16,21 +16,27 @@ from geometry_msgs.msg import Twist
 """
 
 
-if __name__=='__main__':
+def pub_turtle():
     rospy.init_node("node_circle")
-    pub_turtle = rospy.Publisher(name="/turtle1/cmd_vel",data_class=Twist,queue_size=10)
-    
-    rate=rospy.Rate(5)
-    twist = Twist()
-    twist.linear.x=1
-    twist.linear.y=0
-    twist.linear.z=0
+    pub_turtle = rospy.Publisher(
+        name="/turtle1/cmd_vel", data_class=Twist, queue_size=10
+    )
 
-    twist.angular.x=0
-    twist.angular.y=0
-    twist.angular.z=1
+    rate = rospy.Rate(5)
+    twist = Twist()
+    twist.linear.x = 1
+    twist.linear.y = 0
+    twist.linear.z = 0
+
+    twist.angular.x = 0
+    twist.angular.y = 0
+    twist.angular.z = 1
 
     while not rospy.is_shutdown():
         pub_turtle.publish(twist)
         rate.sleep()
         rospy.loginfo("gui gui start~")
+
+
+if __name__ == "__main__":
+    pub_turtle()

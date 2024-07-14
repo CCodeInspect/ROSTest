@@ -4,13 +4,20 @@
 import rospy
 from func_package.msg import person
 
+
 def do_call(person):
-    rospy.loginfo("sub data: %s,%d,%f",person.name,person.age,person.height)
+    rospy.loginfo("sub data: %s,%d,%f", person.name, person.age, person.height)
 
 
-if __name__=='__main__':
+def self_sub():
     """sub"""
     rospy.init_node("node_selfdefine_sub")
-    sub = rospy.Subscriber(name="topic_self_define",data_class=person,queue_size=10,callback=do_call)
-    rospy.spin() #notic fun call
-    #spin函数指的是进入循环处理回调。
+    sub = rospy.Subscriber(
+        name="topic_self_define", data_class=person, queue_size=10, callback=do_call
+    )
+    rospy.spin()  # notic fun call
+    # spin函数指的是进入循环处理回调。
+
+
+if __name__ == "__main__":
+    self_sub()

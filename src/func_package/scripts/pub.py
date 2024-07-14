@@ -1,6 +1,6 @@
 #! /usr/bin/env python3
 import rospy
-from std_msgs.msg import String #pub data type
+from std_msgs.msg import String  # pub data type
 
 """
 1.import ;
@@ -12,24 +12,28 @@ from std_msgs.msg import String #pub data type
 """
 
 
-if __name__=='__main__':
-    rospy.init_node("node_pub_py") #node pub name    
-    pub= rospy.Publisher(name="fang",data_class=String,queue_size=10)#create pub obj
-    #data
-    msg=String()
-    #pub rate
+def pub():
+    rospy.init_node("node_pub_py")  # node pub name
+    pub = rospy.Publisher(
+        name="fang", data_class=String, queue_size=10
+    )  # create pub obj
+    # data
+    msg = String()
+    # pub rate
     rate = rospy.Rate(1)
 
-    #count
-    count= 0
+    # count
+    count = 0
 
-    #pub data
-    rospy.sleep(5) #sleep for sub all msg and not to lose msg 1-3
+    # pub data
+    rospy.sleep(5)  # sleep for sub all msg and not to lose msg 1-3
     while not rospy.is_shutdown():
-        count+=1
-        msg.data="hello"+str(count) #add number
+        count += 1
+        msg.data = "hello" + str(count)  # add number
         pub.publish(msg)
-        rospy.loginfo("pub data: %s",msg.data)
+        rospy.loginfo("pub data: %s", msg.data)
         rate.sleep()
 
 
+if __name__ == "__main__":
+    pub()

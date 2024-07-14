@@ -1,6 +1,7 @@
 #! /usr/bin/env python3
 import rospy
 from std_msgs.msg import String
+
 """
 sub
 1.import;
@@ -10,15 +11,21 @@ sub
 5.spin();
 
 """
+
+
 def do_msg(msg):
-    """pub msg
+    """
+    pub msg
     func call
     """
-    rospy.loginfo("sub data: %s",msg.data)
+    rospy.loginfo("sub data: %s", msg.data)
 
 
-
-if __name__=='__main__':
+def self_sub_subscribe():
     rospy.init_node("node_sub_py")
-    sub =rospy.Subscriber()
-    rospy.spin() #func call must be used 
+    sub = rospy.Subscriber()
+    rospy.spin()  # func call must be used
+
+
+if __name__ == "__main__":
+    self_sub_subscribe()

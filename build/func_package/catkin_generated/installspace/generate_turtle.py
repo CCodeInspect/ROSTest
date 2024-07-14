@@ -1,4 +1,4 @@
-#！ /use/bin/env python3
+# ！ /use/bin/env python3
 
 """
 通过命令生成多个小乌龟
@@ -30,22 +30,27 @@ string name
 
 
 import rospy
-from turtlesim.srv import Spawn,SpawnRequest,SpawnResponse
+from turtlesim.srv import Spawn, SpawnRequest, SpawnResponse
 
-if __name__=='__main__':
+
+def generate_turtle():
     rospy.init_node("node_client_python")
-    client=rospy.ServiceProxy(name='/spawn',service_class=Spawn)
-    
-    #请求数据
-    request = SpawnRequest()
-    request.x=2.0
-    request.y=3.1
-    request.theta=59.1
-    request.name="turtle_vv"  
+    client = rospy.ServiceProxy(name="/spawn", service_class=Spawn)
 
-    client.wait_for_service() #等待服务端
+    # 请求数据
+    request = SpawnRequest()
+    request.x = 2.0
+    request.y = 3.1
+    request.theta = 59.1
+    request.name = "turtle_vv"
+
+    client.wait_for_service()  # 等待服务端
     try:
-        response =client.call(request)
-        rospy.loginfo("生成乌龟的名字叫：%s",response.name)
+        response = client.call(request)
+        rospy.loginfo("生成乌龟的名字叫：%s", response.name)
     except Exception as e:
         rospy.logerr("请求处理异常，请检查请求参数")
+
+
+if __name__ == "__main__":
+    generate_turtle()
