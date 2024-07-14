@@ -1,2 +1,2 @@
-func_package:my:srv_func_package
+func_package:func_package_launch:my:srv_func_package:urdf01rviz
 -DCATKIN_DEVEL_PREFIX=/home/vboxuser/demo_2/devel -DCMAKE_INSTALL_PREFIX=/home/vboxuser/demo_2/install -G Unix Makefiles

@@ -397,6 +397,9 @@ _gtest_SOURCES:FILEPATH=/usr/src/gtest/src/gtest.cc
 //The directory containing a CMake configuration file for catkin.
 catkin_DIR:PATH=/opt/ros/noetic/share/catkin/cmake
 
+//The directory containing a CMake configuration file for class_loader.
+class_loader_DIR:PATH=/opt/ros/noetic/share/class_loader/cmake
+
 //The directory containing a CMake configuration file for cpp_common.
 cpp_common_DIR:PATH=/opt/ros/noetic/share/cpp_common/cmake
 
@@ -405,6 +408,12 @@ func_package_BINARY_DIR:STATIC=/home/vboxuser/demo_2/build/func_package
 
 //Value Computed by CMake
 func_package_SOURCE_DIR:STATIC=/home/vboxuser/demo_2/src/func_package
+
+//Value Computed by CMake
+func_package_launch_BINARY_DIR:STATIC=/home/vboxuser/demo_2/build/func_package_launch
+
+//Value Computed by CMake
+func_package_launch_SOURCE_DIR:STATIC=/home/vboxuser/demo_2/src/func_package_launch
 
 //The directory containing a CMake configuration file for gencpp.
 gencpp_DIR:PATH=/opt/ros/noetic/share/gencpp/cmake
@@ -423,6 +432,9 @@ gennodejs_DIR:PATH=/opt/ros/noetic/share/gennodejs/cmake
 
 //The directory containing a CMake configuration file for genpy.
 genpy_DIR:PATH=/opt/ros/noetic/share/genpy/cmake
+
+//The directory containing a CMake configuration file for geometry_msgs.
+geometry_msgs_DIR:PATH=/opt/ros/noetic/share/geometry_msgs/cmake
 
 //Value Computed by CMake
 gmock_BINARY_DIR:STATIC=/home/vboxuser/demo_2/build/gtest/googlemock
@@ -485,6 +497,9 @@ my_BINARY_DIR:STATIC=/home/vboxuser/demo_2/build/my
 //Value Computed by CMake
 my_SOURCE_DIR:STATIC=/home/vboxuser/demo_2/src/my
 
+//The directory containing a CMake configuration file for pluginlib.
+pluginlib_DIR:PATH=/opt/ros/noetic/share/pluginlib/cmake
+
 //Value Computed by CMake
 python_package_BINARY_DIR:STATIC=/home/vboxuser/demo_2/build/python_package
 
@@ -493,6 +508,9 @@ python_package_SOURCE_DIR:STATIC=/home/vboxuser/demo_2/src/python_package
 
 //The directory containing a CMake configuration file for rosconsole.
 rosconsole_DIR:PATH=/opt/ros/noetic/share/rosconsole/cmake
+
+//The directory containing a CMake configuration file for rosconsole_bridge.
+rosconsole_bridge_DIR:PATH=/opt/ros/noetic/share/rosconsole_bridge/cmake
 
 //The directory containing a CMake configuration file for roscpp.
 roscpp_DIR:PATH=/opt/ros/noetic/share/roscpp/cmake
@@ -505,6 +523,12 @@ roscpp_traits_DIR:PATH=/opt/ros/noetic/share/roscpp_traits/cmake
 
 //The directory containing a CMake configuration file for rosgraph_msgs.
 rosgraph_msgs_DIR:PATH=/opt/ros/noetic/share/rosgraph_msgs/cmake
+
+//The directory containing a CMake configuration file for roslib.
+roslib_DIR:PATH=/opt/ros/noetic/share/roslib/cmake
+
+//The directory containing a CMake configuration file for rospack.
+rospack_DIR:PATH=/opt/ros/noetic/share/rospack/cmake
 
 //The directory containing a CMake configuration file for rospy.
 rospy_DIR:PATH=/opt/ros/noetic/share/rospy/cmake
@@ -520,6 +544,24 @@ srv_func_package_SOURCE_DIR:STATIC=/home/vboxuser/demo_2/src/srv_func_package
 
 //The directory containing a CMake configuration file for std_msgs.
 std_msgs_DIR:PATH=/opt/ros/noetic/share/std_msgs/cmake
+
+//The directory containing a CMake configuration file for std_srvs.
+std_srvs_DIR:PATH=/opt/ros/noetic/share/std_srvs/cmake
+
+//The directory containing a CMake configuration file for turtlesim.
+turtlesim_DIR:PATH=/opt/ros/noetic/share/turtlesim/cmake
+
+//Value Computed by CMake
+urdf01rviz_BINARY_DIR:STATIC=/home/vboxuser/demo_2/build/urdf01rviz
+
+//Value Computed by CMake
+urdf01rviz_SOURCE_DIR:STATIC=/home/vboxuser/demo_2/src/urdf01rviz
+
+//The directory containing a CMake configuration file for urdf.
+urdf_DIR:PATH=/opt/ros/noetic/share/urdf/cmake
+
+//The directory containing a CMake configuration file for xacro.
+xacro_DIR:PATH=/opt/ros/noetic/share/xacro/cmake
 
 //The directory containing a CMake configuration file for xmlrpcpp.
 xmlrpcpp_DIR:PATH=/opt/ros/noetic/share/xmlrpcpp/cmake
@@ -672,7 +714,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=7
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=9
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
