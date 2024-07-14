@@ -172,6 +172,7 @@ catkin_install_python(PROGRAMS
   scripts/change_color.py
   scripts/time.py
   scripts/get_log.py
+  scripts/abc.py
   DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 )
 
