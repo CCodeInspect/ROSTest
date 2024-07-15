@@ -43,7 +43,32 @@ Visualization Manager:
         Expand Link Details: false
         Expand Tree: false
         Link Tree Style: Links in Alphabetic Order
+        back_wheel:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
         base_footprint:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        base_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        front_wheel:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        left_wheel:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        right_wheel:
           Alpha: 1
           Show Axes: false
           Show Trail: false
@@ -71,6 +96,53 @@ Visualization Manager:
       Plane: XY
       Plane Cell Count: 10
       Reference Frame: <Fixed Frame>
+      Value: true
+    - Class: rviz/TF
+      Enabled: true
+      Filter (blacklist): ""
+      Filter (whitelist): ""
+      Frame Timeout: 15
+      Frames:
+        All Enabled: true
+        back_wheel:
+          Value: true
+        base_footprint:
+          Value: true
+        base_link:
+          Value: true
+        front_wheel:
+          Value: true
+        left_wheel:
+          Value: true
+        right_wheel:
+          Value: true
+      Marker Alpha: 1
+      Marker Scale: 1
+      Name: TF
+      Show Arrows: true
+      Show Axes: true
+      Show Names: true
+      Tree:
+        base_footprint:
+          base_link:
+            back_wheel:
+              {}
+            front_wheel:
+              {}
+            left_wheel:
+              {}
+            right_wheel:
+              {}
+      Update Interval: 0
+      Value: true
+    - Alpha: 1
+      Class: rviz/Axes
+      Enabled: true
+      Length: 1
+      Name: Axes
+      Radius: 0.10000000149011612
+      Reference Frame: <Fixed Frame>
+      Show Trail: false
       Value: true
   Enabled: true
   Global Options:
@@ -100,7 +172,7 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz/Orbit
-      Distance: 0.01311547588557005
+      Distance: 1.0809451341629028
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.05999999865889549
         Stereo Focal Distance: 1
@@ -116,9 +188,9 @@ Visualization Manager:
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Pitch: 0.48479682207107544
+      Pitch: 0.704796314239502
       Target Frame: <Fixed Frame>
-      Yaw: 2.145401954650879
+      Yaw: 2.674048900604248
     Saved: ~
 Window Geometry:
   Displays:
