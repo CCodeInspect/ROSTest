@@ -136,6 +136,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/vboxuser/demo_2/build/srv_func_package/cmake_install.cmake")
   include("/home/vboxuser/demo_2/build/func_package_launch/cmake_install.cmake")
   include("/home/vboxuser/demo_2/build/urdf01rviz/cmake_install.cmake")
+  include("/home/vboxuser/demo_2/build/urdf00_gazeboe/cmake_install.cmake")
 
 endif()
 

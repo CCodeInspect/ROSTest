@@ -1,0 +1,8 @@
+prefix=/home/vboxuser/demo_2/install
+
+Name: urdf_gazboe
+Description: Description of urdf_gazboe
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

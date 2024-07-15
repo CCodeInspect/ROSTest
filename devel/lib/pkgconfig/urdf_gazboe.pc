@@ -1,0 +1,8 @@
+prefix=/home/vboxuser/demo_2/devel
+
+Name: urdf_gazboe
+Description: Description of urdf_gazboe
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib -lurdf_gazboe
+Requires: gazebo_ros_control gazebo_plugins gazebo_ros urdf xacro
