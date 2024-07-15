@@ -12,6 +12,8 @@ sub
 
 """
 
+res = None
+
 
 def do_msg(msg):
     """
@@ -19,13 +21,14 @@ def do_msg(msg):
     func call
     """
     rospy.loginfo("sub data: %s", msg.data)
+    res = msg.data
 
 
-def self_sub_subscribe():
+def create_self_sub_subscribe():
     rospy.init_node("node_sub_py")
     sub = rospy.Subscriber()
     rospy.spin()  # func call must be used
 
 
 if __name__ == "__main__":
-    self_sub_subscribe()
+    create_self_sub_subscribe()

@@ -12,7 +12,7 @@ from std_msgs.msg import String  # pub data type
 """
 
 
-def pub():
+def create_pub():
     rospy.init_node("node_pub_py")  # node pub name
     pub = rospy.Publisher(
         name="fang", data_class=String, queue_size=10
@@ -29,11 +29,11 @@ def pub():
     rospy.sleep(5)  # sleep for sub all msg and not to lose msg 1-3
     while not rospy.is_shutdown():
         count += 1
-        msg.data = "hello" + str(count)  # add number
+        msg.data = "hello"  # add number
         pub.publish(msg)
         rospy.loginfo("pub data: %s", msg.data)
         rate.sleep()
 
 
 if __name__ == "__main__":
-    pub()
+    create_pub()
